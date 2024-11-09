@@ -52,10 +52,7 @@ jobs:
                     
       - name: Setup Node.js environment    
         uses: actions/setup-node@v4.1.0
-
-      - name: Setup Java JDK
-        uses: actions/setup-java@v4.5.0
-            
+        
       - name: Download a Build Artifact
         uses: actions/download-artifact@v4.1.8
 
